@@ -9,7 +9,7 @@ This is a Python-based multi-threaded network server that accepts text data (boo
 - netcat (nc) command-line utility
 - make (for running test scripts)
 - Text files to analyze (e.g., books from Project Gutenberg)
-
+<br>
 
 ## Server Setup and Usage
 
@@ -46,7 +46,7 @@ Example:
 ```bash
 nc localhost 12345 -i 1 < books/book1.txt
 ```
-
+<br>
 
 ## Example Usage Sequence
 
@@ -61,6 +61,7 @@ nc localhost 12345 -i 1 < books/book1.txt
 nc localhost 12345 -i 1 < books/book2.txt
 nc localhost 12345 -i 1 < books/book3.txt
 ```
+<br>
 
 ## Testing with Make
 
