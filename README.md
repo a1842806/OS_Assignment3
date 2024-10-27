@@ -2,12 +2,14 @@
 
 This is a Python-based multi-threaded network server that accepts text data (books) from multiple clients simultaneously, processes them for pattern analysis, and maintains synchronized data structures for efficient pattern searching and reporting.
 
+
 ## Requirements
 
 - Python 3.6 or higher
 - netcat (nc) command-line utility
 - make (for running test scripts)
 - Text files to analyze (e.g., books from Project Gutenberg)
+
 
 ## Server Setup and Usage
 
@@ -44,6 +46,7 @@ Example:
 ```bash
 nc localhost 12345 -i 1 < books/book1.txt
 ```
+
 
 ## Example Usage Sequence
 
